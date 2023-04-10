@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class player : MonoBehaviour
 {
     private BoxCollider2D boxCollider;
-    private Vector3 moveDelta;
+    private Vector2 movement;
     private RaycastHit2D hit;
+    private Animator animator;
 
     // Start is called before the first frame update
     private void Start()
@@ -14,37 +16,42 @@ public class player : MonoBehaviour
         boxCollider = GetComponent<BoxCollider2D>();
     }
 
+    //  Start up animation
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
+    // Player movement
+    private void OnMovement (InputValue value)
+    {
+        movement = value.Get<Vector2>();
+
+        if(movement.x != 0 || movement.y != 0)
+        {
+            animator.SetFloat("X", movement.x);
+            animator.SetFloat("Y", movement.y);
+
+            animator.SetBool("IsWalking", true);
+        }
+        else
+        {
+            animator.SetBool("IsWalking", false);
+        }
+    }
+
     private void FixedUpdate()
     {
-        float x = Input.GetAxisRaw("Horizontal");
-        float y = Input.GetAxisRaw("Vertical");
-        
-        //Reset MoveDelta
-        moveDelta = new Vector3(x, y,0);
-
-        //Swap sprite dir, wether your going right or left
-        if(moveDelta.x > 0)
-        {
-            transform.localScale = Vector3.one;
-        }
-        else if(moveDelta.x < 0)
-        {
-            transform.localScale = new Vector3(-1,1,1);
-        }
-
         // double check we can move in direction, by casting a box there first . if box returns null then move
-        hit = Physics2D.BoxCast(transform.position,boxCollider.size, 0, new Vector2(0,moveDelta.y),Mathf.Abs(moveDelta.y * Time.deltaTime), LayerMask.GetMask("Actor","Blocking"));
+        hit = Physics2D.BoxCast(transform.position,boxCollider.size, 0, new Vector2(0,movement.y),Mathf.Abs(movement.y * Time.deltaTime), LayerMask.GetMask("Actor","Blocking"));
         if(hit.collider == null)
         {
-            transform.Translate(0,moveDelta.y * Time.deltaTime, 0);
+            transform.Translate(0,movement.y * Time.deltaTime, 0);
         }
-        hit = Physics2D.BoxCast(transform.position,boxCollider.size, 0, new Vector2(moveDelta.x,0),Mathf.Abs(moveDelta.x * Time.deltaTime), LayerMask.GetMask("Actor","Blocking"));
+        hit = Physics2D.BoxCast(transform.position,boxCollider.size, 0, new Vector2(movement.x,0),Mathf.Abs(movement.x * Time.deltaTime), LayerMask.GetMask("Actor","Blocking"));
         if(hit.collider == null)
         {
-            transform.Translate(moveDelta.x * Time.deltaTime, 0,0);
+            transform.Translate(movement.x * Time.deltaTime, 0,0);
         }
-
-        //Player move
-        //transform.Translate(moveDelta * Time.deltaTime);
     }
 }

@@ -225,7 +225,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_front
+      name: Player_down
       rect:
         serializedVersion: 2
         x: 0
@@ -246,7 +246,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_back
+      name: Player_up
       rect:
         serializedVersion: 2
         x: 32
@@ -309,7 +309,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_4
+      name: Player_walking_right0
       rect:
         serializedVersion: 2
         x: 0
@@ -330,7 +330,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_5
+      name: Player_walking_right1
       rect:
         serializedVersion: 2
         x: 32
@@ -351,7 +351,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_6
+      name: Player_walking_right2
       rect:
         serializedVersion: 2
         x: 64
@@ -372,7 +372,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_7
+      name: Player_walking_right3
       rect:
         serializedVersion: 2
         x: 96
@@ -393,7 +393,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_8
+      name: Player_walking_right4
       rect:
         serializedVersion: 2
         x: 128
@@ -414,7 +414,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_9
+      name: Player_walking_right5
       rect:
         serializedVersion: 2
         x: 160
@@ -435,7 +435,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_10
+      name: Player_walking_right6
       rect:
         serializedVersion: 2
         x: 192
@@ -456,7 +456,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_11
+      name: Player_walking_right7
       rect:
         serializedVersion: 2
         x: 224
@@ -477,7 +477,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_12
+      name: Player_walking_up0
       rect:
         serializedVersion: 2
         x: 0
@@ -498,7 +498,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_13
+      name: Player_walking_up1
       rect:
         serializedVersion: 2
         x: 32
@@ -519,7 +519,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_14
+      name: Player_walking_up2
       rect:
         serializedVersion: 2
         x: 64
@@ -540,7 +540,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_15
+      name: Player_walking_up3
       rect:
         serializedVersion: 2
         x: 96
@@ -561,7 +561,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_16
+      name: Player_walking_up4
       rect:
         serializedVersion: 2
         x: 128
@@ -582,7 +582,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_17
+      name: Player_walking_up5
       rect:
         serializedVersion: 2
         x: 160
@@ -603,7 +603,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_18
+      name: Player_walking_up6
       rect:
         serializedVersion: 2
         x: 192
@@ -624,7 +624,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_19
+      name: Player_walking_up7
       rect:
         serializedVersion: 2
         x: 224
@@ -645,7 +645,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_20
+      name: Player_walking_down0
       rect:
         serializedVersion: 2
         x: 0
@@ -666,7 +666,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_21
+      name: Player_walking_down1
       rect:
         serializedVersion: 2
         x: 32
@@ -687,7 +687,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_22
+      name: Player_walking_down2
       rect:
         serializedVersion: 2
         x: 64
@@ -708,7 +708,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_23
+      name: Player_walking_down3
       rect:
         serializedVersion: 2
         x: 96
@@ -729,7 +729,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_24
+      name: Player_walking_down4
       rect:
         serializedVersion: 2
         x: 128
@@ -750,7 +750,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_25
+      name: Player_walking_down5
       rect:
         serializedVersion: 2
         x: 160
@@ -771,7 +771,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_26
+      name: Player_walking_down6
       rect:
         serializedVersion: 2
         x: 192
@@ -792,7 +792,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_27
+      name: Player_walking_down7
       rect:
         serializedVersion: 2
         x: 224
@@ -813,7 +813,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_28
+      name: Player_walking_left0
       rect:
         serializedVersion: 2
         x: 0
@@ -834,7 +834,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_29
+      name: Player_walking_left1
       rect:
         serializedVersion: 2
         x: 32
@@ -855,7 +855,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_30
+      name: Player_walking_left2
       rect:
         serializedVersion: 2
         x: 64
@@ -876,7 +876,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_31
+      name: Player_walking_left3
       rect:
         serializedVersion: 2
         x: 96
@@ -897,7 +897,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_32
+      name: Player_walking_left4
       rect:
         serializedVersion: 2
         x: 128
@@ -918,7 +918,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_33
+      name: Player_walking_left5
       rect:
         serializedVersion: 2
         x: 160
@@ -939,7 +939,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_34
+      name: Player_walking_left6
       rect:
         serializedVersion: 2
         x: 192
@@ -960,7 +960,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaleBusinessMan_35
+      name: Player_walking_left7
       rect:
         serializedVersion: 2
         x: 224
@@ -991,42 +991,42 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MaleBusinessMan_10: 8491142934392883010
-      MaleBusinessMan_11: -6528703356649848236
-      MaleBusinessMan_12: -5558181638047575969
-      MaleBusinessMan_13: 6193896236861271536
-      MaleBusinessMan_14: 6481313399428068922
-      MaleBusinessMan_15: 7139530743703161980
-      MaleBusinessMan_16: -7486266968950722580
-      MaleBusinessMan_17: -3849159396559591078
-      MaleBusinessMan_18: 26280226731560082
-      MaleBusinessMan_19: -234841750378460675
-      MaleBusinessMan_20: 4362939917135127584
-      MaleBusinessMan_21: 4454681010228117829
-      MaleBusinessMan_22: 946378715715128793
-      MaleBusinessMan_23: 8452933568916942094
-      MaleBusinessMan_24: -6369043596553411214
-      MaleBusinessMan_25: 1895632252255525643
-      MaleBusinessMan_26: 4221896080229468823
-      MaleBusinessMan_27: 5491202802614707961
-      MaleBusinessMan_28: 2731603618783651809
-      MaleBusinessMan_29: 3984378982950141129
-      MaleBusinessMan_30: -8131524862621740133
-      MaleBusinessMan_31: -2244872413570705892
-      MaleBusinessMan_32: 5054827065396264304
-      MaleBusinessMan_33: -7396088173858516098
-      MaleBusinessMan_34: -1136609872291389194
-      MaleBusinessMan_35: -4885460844749611046
-      MaleBusinessMan_4: 2830923798777250561
-      MaleBusinessMan_5: -3152025396726309197
-      MaleBusinessMan_6: 4518559035492712794
-      MaleBusinessMan_7: -1541172270206165210
-      MaleBusinessMan_8: -1631726216930288840
-      MaleBusinessMan_9: -1520438006694593099
-      Player_back: 7997734508279315133
-      Player_front: 4766221418814262111
+      Player_down: 4766221418814262111
       Player_left: -9068646155443108508
       Player_right: -3501472718847690559
+      Player_up: 7997734508279315133
+      Player_walking_down0: 4362939917135127584
+      Player_walking_down1: 4454681010228117829
+      Player_walking_down2: 946378715715128793
+      Player_walking_down3: 8452933568916942094
+      Player_walking_down4: -6369043596553411214
+      Player_walking_down5: 1895632252255525643
+      Player_walking_down6: 4221896080229468823
+      Player_walking_down7: 5491202802614707961
+      Player_walking_left0: 2731603618783651809
+      Player_walking_left1: 3984378982950141129
+      Player_walking_left2: -8131524862621740133
+      Player_walking_left3: -2244872413570705892
+      Player_walking_left4: 5054827065396264304
+      Player_walking_left5: -7396088173858516098
+      Player_walking_left6: -1136609872291389194
+      Player_walking_left7: -4885460844749611046
+      Player_walking_right0: 2830923798777250561
+      Player_walking_right1: -3152025396726309197
+      Player_walking_right2: 4518559035492712794
+      Player_walking_right3: -1541172270206165210
+      Player_walking_right4: -1631726216930288840
+      Player_walking_right5: -1520438006694593099
+      Player_walking_right6: 8491142934392883010
+      Player_walking_right7: -6528703356649848236
+      Player_walking_up0: -5558181638047575969
+      Player_walking_up1: 6193896236861271536
+      Player_walking_up2: 6481313399428068922
+      Player_walking_up3: 7139530743703161980
+      Player_walking_up4: -7486266968950722580
+      Player_walking_up5: -3849159396559591078
+      Player_walking_up6: 26280226731560082
+      Player_walking_up7: -234841750378460675
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

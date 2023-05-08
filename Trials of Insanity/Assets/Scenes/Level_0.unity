@@ -1894,6 +1894,7 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   objectRope: {fileID: 145262954}
+  ropeItem: 0
 --- !u!1 &228786210
 GameObject:
   m_ObjectHideFlags: 0
@@ -2944,6 +2945,7 @@ MonoBehaviour:
   openWhell: {fileID: 7757875185934865916, guid: 819d1f7d48b77434ba3e1df35fcdf6a3, type: 3}
   ropeWhell: {fileID: 8856925110971097590, guid: 819d1f7d48b77434ba3e1df35fcdf6a3, type: 3}
   sceneName: Level1
+  Rope: {fileID: 145262959}
 --- !u!4 &578339369 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7618637965106992245, guid: 7078796c6a0365e43885bd08b922fd61, type: 3}

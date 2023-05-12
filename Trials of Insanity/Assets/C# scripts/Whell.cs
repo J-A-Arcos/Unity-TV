@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class Whell : Collectable
 {
    public Sprite openWhell;
    public Sprite ropeWhell;
    public string sceneName;
-   //public rope Rope;
    public scriptableRope Scriptablerope;
 
    protected override void OnCollide(Collider2D coll)
@@ -16,10 +16,17 @@ public class Whell : Collectable
         if(coll.name == "Player")
         {
            GetComponent<SpriteRenderer>().sprite = openWhell;
-           //SceneManager.LoadScene(sceneName);
            if(Scriptablerope.ropeObtained == true)
            {
                 GetComponent<SpriteRenderer>().sprite = ropeWhell;
+                if(Input.GetKeyDown(KeyCode.Y))
+                {
+                    SceneManager.LoadScene(sceneName);
+                }
+                else
+                {
+                    Debug.Log("Player doesnt want to proceed");
+                }
            }
            else
            {

@@ -10079,11 +10079,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 951766822336148778, guid: a5dc53b37bc837b4ea270a3d7fc2463a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -3.13
       objectReference: {fileID: 0}
     - target: {fileID: 951766822336148778, guid: a5dc53b37bc837b4ea270a3d7fc2463a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -4.35
       objectReference: {fileID: 0}
     - target: {fileID: 951766822336148778, guid: a5dc53b37bc837b4ea270a3d7fc2463a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10127,6 +10127,44 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5dc53b37bc837b4ea270a3d7fc2463a, type: 3}
+--- !u!1 &951766821815255311 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 951766822336148783, guid: a5dc53b37bc837b4ea270a3d7fc2463a, type: 3}
+  m_PrefabInstance: {fileID: 951766821815255310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &951766821815255312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951766821815255311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1001 &2930661631948582580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10197,11 +10235,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618637965106992245, guid: 7078796c6a0365e43885bd08b922fd61, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -3.13
       objectReference: {fileID: 0}
     - target: {fileID: 7618637965106992245, guid: 7078796c6a0365e43885bd08b922fd61, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -4.35
       objectReference: {fileID: 0}
     - target: {fileID: 7618637965106992245, guid: 7078796c6a0365e43885bd08b922fd61, type: 3}
       propertyPath: m_LocalPosition.z

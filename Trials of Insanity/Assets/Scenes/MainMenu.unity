@@ -14671,67 +14671,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 28}
   m_Pivot: {x: 0.5, y: 1}
---- !u!1 &2053442837
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2053442839}
-  - component: {fileID: 2053442838}
-  m_Layer: 0
-  m_Name: MenuController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2053442838
+--- !u!114 &2053442838 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 8115582851659643257, guid: 37b739b937574284480ee4089d942402, type: 3}
+  m_PrefabInstance: {fileID: 8115582849606333551}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2053442837}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4506b7d3a112ce942a92640beb342855, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volumeTextValue: {fileID: 639858296}
-  volumeSlider: {fileID: 524641100}
-  defaultVolume: 1
-  controllerSenTextValue: {fileID: 716330970}
-  controllerSenSlider: {fileID: 1197204510}
-  defaultSen: 4
-  mainControllerSen: 4
-  invertYToggle: {fileID: 733243236}
-  brightnessSlider: {fileID: 2086981966}
-  brightnessTextValue: {fileID: 586624930}
-  defaultBrightness: 1
-  qualityDropdown: {fileID: 922500530}
-  fullScreenToggle: {fileID: 1410877901}
-  confirmationPrompt: {fileID: 465808475}
-  _newGameLevel: Level_0
-  noSavedGameDialog: {fileID: 1928276452}
-  resolutionDropdown: {fileID: 1548938856}
---- !u!4 &2053442839
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2053442837}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2241.858, y: 956.9987, z: -9.268016}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2053887877
 GameObject:
   m_ObjectHideFlags: 0
@@ -15683,3 +15633,108 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144182773}
   m_CullTransparentMesh: 1
+--- !u!1001 &8115582849606333551
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8115582851659643256, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115582851659643256, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2241.858
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115582851659643256, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 956.9987
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115582851659643256, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.268016
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115582851659643256, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115582851659643256, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115582851659643256, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115582851659643256, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115582851659643256, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115582851659643256, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115582851659643256, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115582851659643257, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: volumeSlider
+      value: 
+      objectReference: {fileID: 524641100}
+    - target: {fileID: 8115582851659643257, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: invertYToggle
+      value: 
+      objectReference: {fileID: 733243236}
+    - target: {fileID: 8115582851659643257, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: qualityDropdown
+      value: 
+      objectReference: {fileID: 922500530}
+    - target: {fileID: 8115582851659643257, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: volumeTextValue
+      value: 
+      objectReference: {fileID: 639858296}
+    - target: {fileID: 8115582851659643257, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: brightnessSlider
+      value: 
+      objectReference: {fileID: 2086981966}
+    - target: {fileID: 8115582851659643257, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: fullScreenToggle
+      value: 
+      objectReference: {fileID: 1410877901}
+    - target: {fileID: 8115582851659643257, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: noSavedGameDialog
+      value: 
+      objectReference: {fileID: 1928276452}
+    - target: {fileID: 8115582851659643257, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: confirmationPrompt
+      value: 
+      objectReference: {fileID: 465808475}
+    - target: {fileID: 8115582851659643257, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: resolutionDropdown
+      value: 
+      objectReference: {fileID: 1548938856}
+    - target: {fileID: 8115582851659643257, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: brightnessTextValue
+      value: 
+      objectReference: {fileID: 586624930}
+    - target: {fileID: 8115582851659643257, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: controllerSenSlider
+      value: 
+      objectReference: {fileID: 1197204510}
+    - target: {fileID: 8115582851659643257, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: controllerSenTextValue
+      value: 
+      objectReference: {fileID: 716330970}
+    - target: {fileID: 8115582851659643258, guid: 37b739b937574284480ee4089d942402, type: 3}
+      propertyPath: m_Name
+      value: MenuController
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 37b739b937574284480ee4089d942402, type: 3}

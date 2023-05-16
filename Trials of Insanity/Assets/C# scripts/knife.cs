@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+//using UnityEngine.Rendering.Universal;
 using UnityEngine;
 
 public class knife : Collectable
 {
-     public GameObject objectKnife;
+    public GameObject objectKnife;
     public bool knifeItem;
-    //public scriptableRope Scriptablerope;
+    public scriptableRope Scriptablerope1;
     
     protected override void OnCollect()
     {
@@ -15,8 +17,6 @@ public class knife : Collectable
             collected = true;
             knifeItem = true;
             objectKnife.SetActive(false);
-
-            //Scriptablerope.ropeObtained = knifeItem;
         }
     }
 }

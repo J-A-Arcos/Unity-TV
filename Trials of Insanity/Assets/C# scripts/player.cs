@@ -53,12 +53,12 @@ public class player : MonoBehaviour
         hit = Physics2D.BoxCast(transform.position,boxCollider.size, 0, new Vector2(0,movement.y),Mathf.Abs(movement.y * Time.deltaTime), LayerMask.GetMask("Player","Blocking"));
         if(hit.collider == null)
         {
-            transform.Translate(0,movement.y * Time.deltaTime, 0);
+            transform.Translate(0,movement.y * (Time.deltaTime*2), 0);
         }
         hit = Physics2D.BoxCast(transform.position,boxCollider.size, 0, new Vector2(movement.x,0),Mathf.Abs(movement.x * Time.deltaTime), LayerMask.GetMask("Player","Blocking"));
         if(hit.collider == null)
         {
-            transform.Translate(movement.x * Time.deltaTime, 0,0);
+            transform.Translate(movement.x * (Time.deltaTime*2), 0,0);
         }
     }
 }

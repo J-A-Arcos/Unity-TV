@@ -9,7 +9,7 @@ public class Collidable : MonoBehaviour
    private Collider2D[] hits = new Collider2D[10];
    protected bool collide;
 
-   protected virtual void Awake()
+   protected virtual void Start()
    {
         boxCollider = GetComponent<BoxCollider2D>();
    }

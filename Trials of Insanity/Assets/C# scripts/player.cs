@@ -40,13 +40,6 @@ public class player : MonoBehaviour
         }
     }
 
-    // player Jump
-    private void OnJump()
-    {
-        Debug.Log("Jumped");
-        //animator.SetBool("JumpingRight", true);
-    }
-
     private void FixedUpdate()
     {
         // double check we can move in direction, by casting a box there first . if box returns null then move
